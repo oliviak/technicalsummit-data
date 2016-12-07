@@ -1,0 +1,12 @@
+{
+    "name": "HDInsightLinkedService",
+    "properties": {
+        "type": "HDInsightOnDemand",
+        "typeProperties": {
+            "clusterSize": 1,
+            "timeToLive": "03:00:00",
+            "jobsContainer": "adfjobs",
+            "linkedServiceName": "HDInsightStorageLinkedService"
+        }
+    }
+}

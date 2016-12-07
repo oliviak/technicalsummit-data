@@ -1,1 +1,1 @@
-# technicalsummit-data
+#Hands-On Lab for the [Technical Summit 2016 in Darmstadt](http://technical-summit.de)

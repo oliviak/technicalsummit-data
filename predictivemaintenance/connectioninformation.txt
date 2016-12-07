@@ -1,0 +1,18 @@
+Azure Storage Account Information
+Storage account name:
+Stoage account key:
+
+Azure Event Hub
+Namespace: pmoldk-ns
+Event Hub name: pmoldk
+Connection string:
+
+Azure SQL DB
+Azure SQL Server:
+Azure SQL Database name: pmaintenancedb
+SQL admin name:
+SQL admin password:
+
+Azure Machine Learning
+Azure Machine Learning Request URI: 
+Azure Machine Learning API Key:
