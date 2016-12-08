@@ -244,7 +244,7 @@ Now we will configure the input, query and output of the other Azure Stream Anal
 
 There are 3 Power BI outputs that need to be created. Each are identified in the query and they are ***Aircraftmonitor***, ***Aircraftalert***, and ***Flightsbyhour***. For each of these data sets you will add an output:
 
-- 	Return to the main frame for the maintenancesa02asablob job
+- 	Return to the main frame for the maintenancesa02asapbi job
 -	Under ***Job Topology*** click ***Outputs***
 - 	In the ***Outputs*** frame, Click ***ADD*** at the top
 -	Enter the following settings:
@@ -252,8 +252,8 @@ There are 3 Power BI outputs that need to be created. Each are identified in the
 	- ***Sink***: Power BI
 -   Click the *Authorize Now* button to link to your Office 365 subscription.
 -   After authorizing, enter the following information:
-	- ***DATASET NAME***: PersonalOffersUserViews
-	- ***TABLE NAME***: PersonalOffersUserViews
+	- ***DATASET NAME***: Aircraftmonitor
+	- ***TABLE NAME***: Aircraftmonitor
 	- ***WORKSPACE***: My Workspace
 -   Click ***Create***. 
 
@@ -345,7 +345,7 @@ The first thing we need to do is to create the workspace. A workspace is where e
 -	On the page that appears on the right click ***Create***
 - 	Enter the following configurations:
 	- ***Workspace Name***: *aerospacetemplate[UI][N]*
-	- ***Resource Group***:	Choose the resource group created earlier ***personaloffers_resourcegroup***
+	- ***Resource Group***:	Choose the resource group created earlier ***aerospacetemplate_resourcegroup***
 	- ***Location***: West Europe
 	- ***Storage account***: Choose the storage account created earlier or create a new one (since the one before was created in North Europe)
 	- ***Pricing tier***: Standard
@@ -363,7 +363,7 @@ Now that we have a workspace to work within, we can copy over the required exper
 -	Click ***RUN*** at the bottom of the page. This step will take several minutes to finish and all objects in the graph will have a check box on them to indicate they have run.
 -	Click ***DEPLOY WEB SERVICE [New] Preview*** at the bottom of the page to create the Azure Web Service associated with the experiment.
 -	Enter *aerospacetemplate[UI][N]* as the Web Service Name.
--	Select the price plan you created in the step before (*personaloffers[UI][N]Plan*) for Price Plan
+-	Select the price plan you created in the step before (*aerospacetemplate[UI][N]Plan*) for Price Plan
 -	Click the ***Deploy*** button.
 -	When completed the browser will redirect to the web service home page.
 	-	The web service home page can also be found by going to ***services.azureml.net*** page once logged in. 

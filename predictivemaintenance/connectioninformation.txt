@@ -1,11 +1,11 @@
 Azure Storage Account Information
-Storage account name:
-Stoage account key:
+Storage account name: 
+Stoage account key: 
 
 Azure Event Hub
-Namespace: pmoldk-ns
-Event Hub name: pmoldk
-Connection string:
+Namespace: 
+Event Hub name: 
+Connection string: 
 
 Azure SQL DB
 Azure SQL Server:
